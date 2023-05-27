@@ -1,0 +1,84 @@
+h1,span{
+    font-family:'Goldman';
+    font-style: normal;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+p{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+color: #000000;
+}
+
+h1{
+    font-weight: 700;
+    -webkit-text-stroke: 0.1rem #ffffff;
+    -webkit-text-stroke-position: outside;
+    text-shadow: 0px 1.5px 1.5px rgb(0, 0, 0);
+    /* -webkit-backdrop-filter: blur(4.59px);
+    backdrop-filter: blur(4.59px); */
+
+    font-weight: 700;
+
+}
+
+span{
+    font-weight: 700;
+ color: #F7F7EC; 
+-webkit-text-stroke: 3.06px #000000;
+-webkit-text-stroke-position: outside;
+-webkit-text-fill-color: transparent;
+text-shadow: 0px 3.06px 4.59px rgba(255, 255, 255, 0);
+-webkit-backdrop-filter: blur(4.59px);
+backdrop-filter: blur(4.59px);
+transform: rotate(-0.2deg);
+font-weight: 700;
+color: #F7F7EC; 
+-webkit-text-stroke: 3.06px #000000;
+-webkit-text-stroke-position: outside;
+-webkit-text-fill-color: transparent;
+text-shadow: 0px 3.06px 4.59px rgba(255, 255, 255, 0);
+-webkit-backdrop-filter: blur(4.59px);
+backdrop-filter: blur(4.59px);
+/* transform: rotate(-0.2deg); */
+
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F7F7EC;
+    margin-bottom: 20px;
+    }
+
+    input {
+
+        border-radius: 30px;
+        border: 3px solid #000000;
+        padding: 10px;
+      }
+      
+      ::placeholder {
+        font-family: Goldman;
+        font-weight: 700;
+        text-align: left;        
+    
+      }
+
+      p {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27.8681px;
+        line-height: 33px;
+        color: #000000;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
