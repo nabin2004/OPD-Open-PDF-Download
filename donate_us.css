@@ -1,0 +1,51 @@
+
+.donation-form{
+    padding: 30px;
+}
+
+input{
+    width: 100%;
+}
+
+.bullets{
+font-family: 'Goldman';
+font-style: normal;
+font-weight: 700;
+
+line-height: 37px;
+
+color: #000000;
+}
+
+button{
+   display:flex;
+   justify-content:center;
+  
+}
+@media (min-width: 1000px) and (max-width: 2000px) {
+    /* Styles for screens with width between 480px and 1023px */
+    .left-side{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .right-side{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    input{
+        width: 30%;
+    }
+    
+    .donation-form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 40px;
+    }
+  }
+
+/* @media (max-width:1000px){
+
+} */
+  
