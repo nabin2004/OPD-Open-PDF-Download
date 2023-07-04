@@ -1,0 +1,65 @@
+.one,.two,.three,.four,.five,.six{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 26.7927px;
+line-height: 32px;
+
+color: #000000;
+margin: 10px;
+padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    /* gap: 20px; */
+    align-items: center;
+    margin: 2em;
+  }
+  
+  .column-one {
+    grid-column: 1;
+  }
+  
+  .column-two {
+    grid-column: 2;
+  }
+  
+  .one,
+  .two,
+  .three {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .four,
+  .five,
+  .six {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    border-collapse: collapse; /* Optional: Collapses the borders of adjacent cells */
+  }
+  
+  td, th {
+    border: 1px solid black; /* Adds a 1px solid black border to each table cell */
+    padding: 8px; /* Optional: Adds padding to the table cells */
+  }
+  
+
+
+
+
+  @media (max-width: 767px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+    .column-two {
+      grid-column: 1;
+    }
+  }
+  

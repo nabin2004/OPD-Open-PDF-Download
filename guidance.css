@@ -1,0 +1,37 @@
+h1{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+
+    
+    color: #484747;
+    }
+    
+    p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    
+    color: #000000;
+    }
+
+  .guide-box{
+      margin:10px;
+      padding: 10px;
+  }
+
+    @media only screen and (max-width: 600px) {
+        /* Styles for mobile view */
+        h1 {
+          font-size: 12.3333px;
+          line-height: 15px;
+        }
+      }
+
+button{
+ display: flex;
+ float: right;
+ margin-left: 30px;
+
+}
