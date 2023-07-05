@@ -1,7 +1,7 @@
 # OPD-Open-PDF-Download
-Lets Openly Download pdf books
+
 ======================================================================================
-# Nabin Oli's Website
+## Lets Openly Download pdf books
 
 Welcome to the readme file for Nabin Oli's website. This document provides an overview of the website's purpose, target audience, objectives, design choices, and interactions. Let's dive in!
 
